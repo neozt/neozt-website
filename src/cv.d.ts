@@ -47,6 +47,7 @@ interface Work {
   location?: string;
   location_type?: string;
   responsibilities: string[];
+  responsibilitiesHtml?: string;
   skills: string[];
   startDate: DateStr;
   endDate: DateStr | null;
