@@ -66,94 +66,148 @@
       "studyType": "Bachelor",
       "startDate": "2018-08-01",
       "endDate": "2022-06-01",
-      "score": "4.91/5.00",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
+      "score": "4.91/5.00"
     }
   ],
   "certificates": [],
-  "skills": [
+  "skillCategories": [
     {
-      "name": "Java",
-      "level": "Expert"
+      "name": "Languages",
+      "skills": [
+        {
+          "name": "Java",
+          "level": "Expert"
+        },
+        {
+          "name": "Typescript",
+          "level": "Expert"
+        },
+        {
+          "name": "Python",
+          "level": "Advanced"
+        },
+        {
+          "name": "HTML",
+          "level": "Advanced"
+        },
+        {
+          "name": "CSS",
+          "level": "Advanced"
+        }
+      ]
     },
     {
-      "name": "Typescript",
-      "level": "Expert"
+      "name": "Backend",
+      "skills": [
+        {
+          "name": "Spring",
+          "level": "Expert"
+        },
+        {
+          "name": "Hibernate",
+          "level": "Expert"
+        }
+      ]
     },
     {
-      "name": "Python",
-      "level": "Advanced"
+      "name": "Frontend",
+      "skills": [
+        {
+          "name": "Angular",
+          "level": "Expert"
+        },
+        {
+          "name": "RxJS",
+          "level": "Expert"
+        },
+        {
+          "name": "Tailwind",
+          "level": "Expert"
+        },
+        {
+          "name": "Lighstreamer",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Websocket",
+          "level": "Intermediate"
+        }
+      ]
     },
     {
-      "name": "HTML",
-      "level": "Advanced"
+      "name": "Database",
+      "skills": [
+        {
+          "name": "OracleSQL",
+          "level": "Expert"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Expert"
+        },
+        {
+          "name": "MSSQL",
+          "level": "Advanced"
+        },
+        {
+          "name": "MongoDB",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Redis",
+          "level": "Intermediate"
+        }
+      ]
     },
     {
-      "name": "CSS",
-      "level": "Advanced"
+      "name": "Devops",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "Advanced"
+        },
+        {
+          "name": "Kubernetes",
+          "level": "Advanced"
+        },
+        {
+          "name": "AWS",
+          "level": "Advanced"
+        },
+        {
+          "name": "Gitlab CI",
+          "level": "Advanced"
+        },
+        {
+          "name": "Jenkins",
+          "level": "Advanced"
+        }
+      ]
     },
     {
-      "name": "Spring",
-      "level": "Expert"
-    },
-    {
-      "name": "Hibernate",
-      "level": "Expert"
-    },
-    {
-      "name": "Angular",
-      "level": "Expert"
-    },
-    {
-      "name": "RxJS",
-      "level": "Expert"
-    },
-    {
-      "name": "Tailwind",
-      "level": "Expert"
-    },
-    {
-      "name": "Lighstreamer",
-      "level": "Intermediate"
-    },
-    {
-      "name": "Websocket",
-      "level": "Intermediate"
-    },
-    {
-      "name": "OracleSQL",
-      "level": "Expert"
-    },
-    {
-      "name": "PostgreSQL",
-      "level": "Expert"
-    },
-    {
-      "name": "MSSQL",
-      "level": "Advanced"
-    },
-    {
-      "name": "Docker",
-      "level": "Advanced"
-    },
-    {
-      "name": "Kubernetes",
-      "level": "Advanced"
-    },
-    {
-      "name": "AWS",
-      "level": "Advanced"
-    },
-    {
-      "name": "Gitlab CI",
-      "level": "Advanced"
-    },
-    {
-      "name": "Jenkins",
-      "level": "Advanced"
+      "name": "Cloud (AWS)",
+      "skills": [
+        {
+          "name": "EC2",
+          "level": "Advanced"
+        },
+        {
+          "name": "EKS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "S3",
+          "level": "Advanced"
+        },
+        {
+          "name": "SQS",
+          "level": "Advanced"
+        },
+        {
+          "name": "Lambda",
+          "level": "Intermediate"
+        }
+      ]
     }
   ],
   "languages": [

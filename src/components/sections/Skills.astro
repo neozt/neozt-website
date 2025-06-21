@@ -1,24 +1,24 @@
 ---
-import Section from "../Section.astro";
-import HTML from "@/icons/html.astro";
+import type { CV } from "@/cv";
 import CSS from "@/icons/css.astro";
-import JavaScript from "@/icons/javascript.astro";
-import TypeScript from "@/icons/type.astro";
-import React from "@/icons/react.astro";
-import Node from "@/icons/node.astro";
-import MySQL from "@/icons/sql.astro";
+import Figma from "@/icons/Figma.astro";
+import Flutter from "@/icons/flutter.astro";
 import Git from "@/icons/git.astro";
 import GitHub from "@/icons/GitHub.astro";
-import Tailwind from "@/icons/tailwind.astro";
+import Gitlab from "@/icons/Gitlab.astro";
+import HTML from "@/icons/html.astro";
+import JavaScript from "@/icons/javascript.astro";
+import Kotlin from "@/icons/kotlin.astro";
 import Next from "@/icons/next.astro";
-import { skills as skillsData } from "@cv";
+import Node from "@/icons/node.astro";
+import React from "@/icons/react.astro";
+import MySQL from "@/icons/sql.astro";
 import Swift from "@/icons/swift.astro";
 import SwiftUI from "@/icons/swiftui.astro";
-import Kotlin from "@/icons/kotlin.astro";
-import Flutter from "@/icons/flutter.astro";
-import Figma from "@/icons/Figma.astro";
-import Gitlab from "@/icons/Gitlab.astro";
-import type { CV } from "@/cv";
+import Tailwind from "@/icons/tailwind.astro";
+import TypeScript from "@/icons/type.astro";
+import { skillCategories as skillCategoriesData } from "@cv";
+import Section from "../Section.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -40,21 +40,30 @@ const SKILLS_ICONS: Record<string, any> = {
 	Gitlab,
 };
 
-const skills = skillsData as unknown as CV['skills'];
+const skillCategories = skillCategoriesData as unknown as CV['skillCategories'];
 ---
 
 <Section className={Astro.props.className} title="Skills">
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+	<ul class="flex flex-col gap-y-2">
 		{
-			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
-				const Icon = SKILLS_ICONS[iconName];
-
+			skillCategories.map(({name: categoryName, skills}) => {
 				return (
-					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-						{Icon && <Icon />} <span>{name}</span>
+					<li class="flex gap-x-8">
+						<div class="w-1/5 font-medium text-skin-hue">{ categoryName }</div>
+						<ul class="flex gap-x-1.5">
+						{
+							skills.map(({name: skillName}) => {
+								return (
+										<li class="bg-skin-button-accent/5 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs">
+											<span>{ skillName }</span>
+										</li>
+								)
+							})
+						}
+						</ul>
 					</li>
-				);
+				)
+
 			})
 		}
 	</ul>

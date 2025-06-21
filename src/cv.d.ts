@@ -7,7 +7,7 @@ export interface CV {
   awards: Array<Awards>;
   certificates: Array<Certificates>;
   publications: Array<Publications>;
-  skills: Array<Skills>;
+  skillCategories: Array<SkillCategory>;
   languages: Array<Languages>;
   interests: Array<Interests>;
   references: Array<References>;
@@ -65,6 +65,11 @@ interface Volunteer {
   endDate: DateStr;
   summary: string;
   highlights: Highlight;
+}
+
+interface SkillCategory {
+  name: string;
+  skills: Array<Skills>;
 }
 
 interface Skills {
