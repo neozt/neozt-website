@@ -97,19 +97,6 @@
       ]
     },
     {
-      "name": "Backend",
-      "skills": [
-        {
-          "name": "Spring",
-          "level": "Expert"
-        },
-        {
-          "name": "Hibernate",
-          "level": "Expert"
-        }
-      ]
-    },
-    {
       "name": "Frontend",
       "skills": [
         {
@@ -131,6 +118,19 @@
         {
           "name": "Websocket",
           "level": "Intermediate"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        {
+          "name": "Spring",
+          "level": "Expert"
+        },
+        {
+          "name": "Hibernate",
+          "level": "Expert"
         }
       ]
     },

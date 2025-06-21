@@ -39,7 +39,7 @@ const SKILLS_ICONS: Record<string, any> = {
 
 const work = workData as unknown as CV['work'];
 ---
-<Section className={Astro.props.className} title="Experience">
+<Section className={Astro.props.className} title="Work Experience">
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, responsibilitiesHtml, url, skills, location, location_type }) => {
       const startYear = new Date(startDate).getFullYear()
