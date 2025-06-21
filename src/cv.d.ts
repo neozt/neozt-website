@@ -44,8 +44,8 @@ interface Work {
   name: string;
   position: string;
   url: string;
-  location: string?;
-  location_type: string?;
+  location?: string;
+  location_type?: string;
   responsibilities: string[];
   skills: string[];
   startDate: DateStr;
