@@ -8,11 +8,10 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Tail from "@/components/sections/Tail.astro";
-import KeyboardManager from "@/components/KeyboardManager.astro";
-import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import { basics } from "@cv";
-const { name, label } = basics;
+import type { CV } from "@/cv";
+const { name, label } = basics as unknown as CV['basics'];
 ---
 
 <Layout title={`${name} Portafolio - ${label}`}>

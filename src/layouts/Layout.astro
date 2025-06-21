@@ -1,6 +1,8 @@
 ---
 import { basics } from "@cv";
+import { theme } from "@cv";
 import Vengeance from "@/layouts/Vengeance.astro";
+import type { CV } from "@/cv";
 
 interface Props {
 	title: string;
@@ -8,7 +10,7 @@ interface Props {
 
 const { title } = Astro.props;
 
-const { image, summary, url, theme } = basics;
+const { image, summary, url } = basics as unknown as CV['basics'];
 ---
 
 <!doctype html>

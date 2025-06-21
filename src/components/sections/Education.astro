@@ -1,8 +1,12 @@
 ---
+import type { CV } from "@/cv";
 import Section from "../Section.astro";
 
-import { education } from "@cv";
-import { certificates } from "@cv";
+import { education as educationData } from "@cv";
+import { certificates as certificatesData } from "@cv";
+
+const education = educationData as unknown as CV['education'];
+const certificates = certificatesData as unknown as CV['certificates'];
 ---
 
 <Section className={Astro.props.className} title="Education">

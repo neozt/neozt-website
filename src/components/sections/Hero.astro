@@ -8,8 +8,9 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
+import type { CV } from "@/cv";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, image, location, profiles, phone, email } = basics as unknown as CV['basics'];
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {

@@ -3,7 +3,10 @@ import Git from "@/icons/git.astro";
 import Arrow from "@/icons/Arrow.astro";
 import Section from "../Section.astro";
 
-import { projects } from "@cv";
+import { projects as projectsData } from "@cv";
+import type { CV } from "@/cv";
+
+const projects = projectsData as unknown as CV['projects']
 ---
 
 {
