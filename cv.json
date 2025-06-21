@@ -1,35 +1,29 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "name": "Neo Zhen Ting",
+    "label": "Full Stack Developer",
+    "image": "/neozt_profile.jpg",
+    "email": "neozt99@gmail.com",
+    "url": "https://neozt.dev",
+    "summary": "Full-Stack Software Engineer with 2+ years of experience in fintech, building scalable web applications using Spring and Angular. Experienced in deploying and maintaining both monolithic and microservice-based applications, with a focus on writing clean and maintainable code. Interested in exploring and applying new technologies to solve real-world problems.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "",
+      "city": "Kuala Lumpur",
+      "countryCode": "MY",
+      "region": "Malaysia"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "neozt",
+        "url": "https://www.linkedin.com/in/neozt/"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "neozt",
+        "url": "https://github.com/neozt/"
       }
     ]
   },
