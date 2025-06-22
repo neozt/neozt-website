@@ -34,7 +34,7 @@ Dark mode:
 Light mode (mobile):  
 ![Mobile light mode](docs/mobile_light.png)
 
-Dark mode:  
+Dark mode (mobile):  
 ![Mobile dark mode](docs/mobile_dark.png)
 
 ## Acknowledgements
