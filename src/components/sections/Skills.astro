@@ -50,7 +50,7 @@ const skillCategories = skillCategoriesData as unknown as CV['skillCategories'];
 				return (
 					<li class="flex flex-col gap-y-1 md:flex-row md:gap-x-8">
 						<div class="w-48 flex-none font-medium text-skin-hue">{ categoryName }</div>
-						<ul class="flex flex-wrap gap-x-1.5">
+						<ul class="flex flex-wrap gap-x-1 gap-y-1">
 						{
 							skills.map(({name: skillName}) => {
 								return (
