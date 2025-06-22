@@ -2,7 +2,7 @@
 
 Website to showcase my CV.  
 
-View the live website here: https://neozt-website.neozt99.workers.dev/
+View the live website here: https://neozt.dev
 
 ![Demo screenshot](docs/website_demo.png)
 
