@@ -1,6 +1,11 @@
 ## neozt's CV Website
 
-Website to showcase my CV.
+Website to showcase my CV.  
+
+View the live website here: https://neozt-website.neozt99.workers.dev/
+
+Deployed using Cloudflare Pages.
+
 ![Demo screenshot](docs/website_demo.png)
 
 ## 🛠️ Stack
