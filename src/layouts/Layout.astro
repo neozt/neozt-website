@@ -1,7 +1,6 @@
 ---
 import { basics } from "@cv";
 import { theme } from "@cv";
-import Vengeance from "@/layouts/Vengeance.astro";
 import type { CV } from "@/cv";
 
 interface Props {
@@ -39,7 +38,6 @@ const { image, summary, url } = basics as unknown as CV['basics'];
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim" />
 
 		<link rel="stylesheet" href="/themes/themes.css" />
-		<Vengeance />
 	</head>
 	<body data-theme={theme} class="relative bg-skin-fill">
 		<div class="absolute top-0 -z-10 h-full w-full print:hidden">
