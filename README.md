@@ -4,8 +4,6 @@ Website to showcase my CV.
 
 View the live website here: https://neozt.dev
 
-![Demo screenshot](docs/website_demo.png)
-
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/) - The next-gen web framework.
@@ -16,7 +14,7 @@ View the live website here: https://neozt.dev
 1. Run `pnpm run dev` to start local web server.
 2. Go to `localhost:4321` to view the website in your browser.
 
-## Deployment
+## 💻 Deployment
 
 - The site is deployed on Cloudflare Pages.
 - CI/CD is configured for Cloudflare worker to monitor the Github repository and build the latest changes whenever new commits are pushed to `origin/master` branch.
@@ -24,6 +22,20 @@ View the live website here: https://neozt.dev
     - `pnpm run build` to build the website into `/dist` folder
     - `npx wrangler dev` to preview the site
     - `npx wrangler deploy` to deploy the site to production
+
+## 📸 Screenshots
+
+Light mode:  
+![Light mode](docs/desktop_light.png)
+
+Dark mode:  
+![Dark mode](docs/desktop_dark.png)
+
+Light mode (mobile):  
+![Mobile light mode](docs/mobile_light.png)
+
+Dark mode:  
+![Mobile dark mode](docs/mobile_dark.png)
 
 ## Acknowledgements
 
