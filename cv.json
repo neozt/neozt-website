@@ -6,6 +6,7 @@
     "image": "/neozt_profile.jpg",
     "email": "neozt99@gmail.com",
     "url": "https://neozt.dev",
+    "repoUrl": "https://github.com/neozt/neozt-website",
     "summary": "Full-Stack Software Engineer with 2+ years of experience in fintech, building scalable web applications using Spring and Angular. Experienced in deploying and maintaining both monolithic and microservice-based applications, with a focus on writing clean and maintainable code. Interested in exploring and applying new technologies to solve real-world problems.",
     "theme": "default",
     "location": {

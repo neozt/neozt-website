@@ -21,6 +21,7 @@ interface Basics {
   email: string;
   phone: string;
   url: string;
+  repoUrl: string;
   summary: string;
   location: Location;
   profiles: Array<Profiles>;
