@@ -41,8 +41,10 @@
       "responsibilitiesHtml": "<ul class='text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2'><li>  <strong class='text-skin-hue'>B2B Stock Trading Platform Revamp</strong>  <ul class='text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-0.5'>    <li>Migrated frontend from AngularJS to Angular, including key features such as real-time price streaming (via Lightstreamer) with tiered subscription levels, customizable watchlists with ability to add/remove symbols and show/hide/reorder columns, and a price alert system based on target floor/ceiling price</li>  </ul></li><li>  <strong class='text-skin-hue'>Debit Card System</strong>  <ul class='text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-0.5'>    <li>Built a low-latency, highly-available backend system to integrate with a third party issuer processor for transaction authorisations</li>    <li>Set up and maintained a monorepo with 9+ Spring Boot microservices. Defined coding best practices to support a development team of 5+ engineers. Automated CI/CD deployment to AWS EKS clusters (UAT and Production) using GitLab CI, Docker, Kubernetes, and ArgoCD</li>    <li>Implemented OAuth2 to secure backend APIs, with a custom Auth Server built using Spring Auth Server. Implemented custom API token scheme to authenticate webhooks from third party provider using Spring Security</li>  </ul></li><li>  <strong class='text-skin-hue'>FX Conversion System</strong>  <ul class='text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-0.5'>    <li>Designed and developed webhook-based system to handle FX currency conversions from multiple platforms (including B2B and B2C)</li>    <li>Implemented asynchronous FX processing to minimise latency and improved reliability</li>  </ul></li></ul>",
       "skills": [
         "Java",
-        "Typescript",
-        "HTML/CSS/Tailwind",
+        "TypeScript",
+        "HTML",
+        "LESS",
+        "Tailwind",
         "OracleSQL",
         "PostgreSQL"
       ]
@@ -79,7 +81,7 @@
           "level": "Expert"
         },
         {
-          "name": "Typescript",
+          "name": "TypeScript",
           "level": "Expert"
         },
         {
