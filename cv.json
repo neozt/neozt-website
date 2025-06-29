@@ -161,7 +161,7 @@
       ]
     },
     {
-      "name": "Devops",
+      "name": "DevOps",
       "skills": [
         {
           "name": "Docker",
@@ -169,10 +169,6 @@
         },
         {
           "name": "Kubernetes",
-          "level": "Advanced"
-        },
-        {
-          "name": "AWS",
           "level": "Advanced"
         },
         {
