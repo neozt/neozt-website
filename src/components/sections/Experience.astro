@@ -93,7 +93,7 @@ const work = workData as unknown as CV['work'];
                 )}
 
                 {(responsibilities || responsibilitiesHtml) &&  (
-                <div class="md:after:from-skin-hue dark:md:after:to-skin-hue/0  flex relative flex-col max-sm:!h-auto print:!h-auto gap-4 print:gap-2 md:after:bg-gradient-to-t md:after:absolute md:after:bottom-0 md:after:w-full print:after:hidden md:after:h-12 md:after:content-[''] " :class="expanded ? 'after:hidden' : ''" x-show="expanded" x-collapse.min.50px>
+                <div class="print:!h-auto gap-4 print:gap-2"  x-show="expanded" x-collapse.min.150px>
                   <div class="flex flex-col gap-1">
                     <h4>Responsibilities:</h4>
                     {
@@ -113,7 +113,7 @@ const work = workData as unknown as CV['work'];
 
                 </div>
                 
-                <button @click="expanded = ! expanded" class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
+                <button @click="expanded = !expanded" class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
                   <span x-text="expanded ? 'Show less' : 'Show more'">Show more</span>
                   <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out" :class="{ 'rotate-180': expanded }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </button>
@@ -143,6 +143,10 @@ const work = workData as unknown as CV['work'];
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <style>
+  ul :global(ul) {
+    padding-left: 2px;
+  }
+
   ul :global(li::marker) {
     @apply text-skin-hue
   }
