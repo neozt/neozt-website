@@ -1,6 +1,6 @@
 ## neozt's CV Website
 
-Website to showcase my CV.  
+Website to showcase my CV.    
 
 View the live website here: https://neozt.dev
 
