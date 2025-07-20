@@ -7,8 +7,9 @@ View the live website here: https://neozt.dev
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/) - The next-gen web framework.
+- [**Alpine.js**](https://alpinejs.dev/) - Lightweight JavaScript framework.
 - [**TypeScript**](https://www.typescriptlang.org/) - JavaScript with type syntax.
-
+  
 ## 🚀 Getting Started
 
 1. Run `pnpm run dev` to start local web server.
